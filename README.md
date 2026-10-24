@@ -16,7 +16,7 @@
 
 | Inicio de Sesión (`Sign In`) | Registro de Usuario (`Register`) |
 | :---: | :---: |
-| ![Sign In Screen](file:///C:/Users/ADMIN/.gemini/antigravity/brain/5746ed5d-8a39-4911-988c-b60400d98c7b/.user_uploaded/media_1792799978216_1e9cbd5b.png) | ![Register Screen](file:///C:/Users/ADMIN/.gemini/antigravity/brain/5746ed5d-8a39-4911-988c-b60400d98c7b/.user_uploaded/media_1792800082564_396a9226.png) |
+| ![Sign In Screen](./screenshots/login.png) | ![Register Screen](./screenshots/register.png) |
 | *Acceso autenticado con tokens JWT de corta duración.* | *Políticas de contraseña segura (mínimo 12 caracteres).* |
 
 ---
@@ -87,6 +87,9 @@ sequenceDiagram
 
 ```
 API_Segura/
+├── screenshots/                           # Capturas de pantalla de la aplicación
+│   ├── login.png
+│   └── register.png
 ├── backend/
 │   ├── prisma/
 │   │   └── schema.prisma                  # Modelos relacionales User, Task, RefreshToken

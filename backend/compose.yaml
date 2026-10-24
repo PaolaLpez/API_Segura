@@ -7,7 +7,7 @@ services:
       POSTGRES_USER: app_user
       POSTGRES_PASSWORD: local_dev_only_change_me
     ports:
-      - "5432:5432"
+      - "5435:5432"
     volumes:
       - task_data:/var/lib/postgresql/data
     healthcheck:

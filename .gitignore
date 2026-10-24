@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+
+# Dependencies
+node_modules/
+backend/node_modules/
+.dart_tool/
+mobile/.dart_tool/
+
+# Build artifacts
+coverage/
+dist/
+build/
+mobile/build/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+
+# Flutter / Dart
+.packages
+.pub-cache/
+.pub/
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
